@@ -4,7 +4,7 @@ title: Delete your account · Travel Together
 
 # Delete your Travel Together account
 
-**Travel Together** by Steven Shidi Zhou · Last updated 12 October 2026
+**Travel Together** by Steven Shidi Zhou · Last updated 23 October 2026
 
 ## In the app
 
@@ -12,7 +12,7 @@ title: Delete your account · Travel Together
 2. Under **Account**, tap **Delete account**.
 3. The app asks “Delete your account?” and says:
 
-   > Your name, photo and any trip only you were in are deleted. Messages and photos you sent stay with the people you sent them to, shown as from “Deleted account”. Expenses you paid for stay on shared trips — removing them would change what everyone else owes. This can’t be undone.
+   > Your name and any trip only you were in are deleted. Messages and photos you sent stay with the people you sent them to, shown as from “Deleted account”. Expenses you paid for stay on shared trips — removing them would change what everyone else owes. This can’t be undone.
 
    Tap **Delete** to confirm, or **Cancel**.
 
