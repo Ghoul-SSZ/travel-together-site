@@ -1,2 +1,15 @@
 title: Travel Together
 description: Split costs, plan and chat with the people you travel with.
+url: https://www.traveltogether.now
+contact: privacy@traveltogether.now
+
+exclude:
+  - README.md
+  - .serena
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
