@@ -150,15 +150,13 @@ h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -0.02em; l
 .beta .beta__fine { font-size: 15px; color: var(--ink3); margin: 24px 0 0; }
 
 /* ---- Footer ---- */
-.site-footer { border-top: 0.5px solid var(--line); background: var(--band); padding: 64px 0 32px; font-size: 15px; }
+.site-footer { border-top: 0.5px solid var(--line); background: var(--band); padding: 64px 0; font-size: 15px; }
 .site-footer__grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.4fr; gap: 40px; }
 .site-footer h2 { font: 600 15px/1.3 var(--sans); letter-spacing: 0; margin: 0 0 14px; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .site-footer ul a { color: var(--ink2); text-decoration: none; }
 .site-footer ul a:hover { color: var(--ink); text-decoration: underline; }
 .site-footer__brand p { color: var(--ink2); margin: 14px 0 0; max-width: 22em; }
-.site-footer__base { margin-top: 56px; color: var(--ink3); }
-.site-footer__base p { margin: 0; padding-top: 24px; border-top: 0.5px solid var(--line); }
 
 /* ---- Document pages (privacy, delete account) ---- */
 .prose { max-width: 70ch; margin: 0 auto; padding: clamp(48px, 8vw, 96px) var(--gutter) var(--section); }
