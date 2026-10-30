@@ -10,5 +10,8 @@ The public site for Travel Together at www.traveltogether.now, served by GitHub 
 ## Preview locally
 
 ```sh
-docker run --rm -v "$PWD":/srv/jekyll -p 4000:4000 jekyll/jekyll:3.8 jekyll serve
+docker run --rm -e JEKYLL_UID=$(id -u) -e JEKYLL_GID=$(id -g) \
+  -v "$PWD":/srv/jekyll -p 4000:4000 jekyll/jekyll:3.8 jekyll serve --host 0.0.0.0
 ```
+
+Then open http://localhost:4000. It rebuilds when you save a file; reload the page to see the change.
