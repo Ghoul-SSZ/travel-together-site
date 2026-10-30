@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__brand">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/mark.svg' | relative_url }}" alt="" width="32" height="32">
+        <span>Travel Together</span>
+      </a>
+      <p>{{ site.description }}</p>
+    </div>
+    <nav aria-label="The app">
+      <h2>The app</h2>
+      <ul>
+        <li><a href="{{ '/#split' | relative_url }}">Split bills</a></li>
+        <li><a href="{{ '/#plan' | relative_url }}">Plan</a></li>
+        <li><a href="{{ '/#chat' | relative_url }}">Chat</a></li>
+        <li><a href="{{ '/#beta' | relative_url }}">Join the beta</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Your data">
+      <h2>Your data</h2>
+      <ul>
+        <li><a href="{{ '/privacy' | relative_url }}">Privacy policy</a></li>
+        <li><a href="{{ '/delete-account' | relative_url }}">Delete your account</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="mailto:{{ site.contact }}">{{ site.contact }}</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,136 @@
+---
+layout: default
+body_class: home
+---
+{% assign s = '/assets/screens/' | relative_url %}
+
+<section class="hero">
+  <div class="wrap hero__text">
+    <h1>Who paid, what’s booked, where we’re meeting<span class="dot">.</span></h1>
+    <p class="lede">Travel Together is one app for a group trip. Split the bills, keep every booking and note in one plan, and talk it over in a chat that belongs to the trip.</p>
+    <div class="actions">
+      <a class="button" href="#beta">Join the beta</a>
+      <a class="button button--quiet" href="#split">See how it works</a>
+    </div>
+    <p class="hero__platforms">For Android and iPhone, in closed beta.</p>
+  </div>
+
+  <div class="fan" aria-label="Three screens from the app: a trip’s expenses, the trip home, and the shared plan">
+    <figure class="phone fan__side fan__left"><img src="{{ s }}expenses.webp" alt="" width="720" height="1600"></figure>
+    <figure class="phone fan__center"><img src="{{ s }}home.webp" alt="" width="720" height="1600" fetchpriority="high"></figure>
+    <figure class="phone fan__side fan__right"><img src="{{ s }}plan.webp" alt="" width="720" height="1600"></figure>
+  </div>
+</section>
+
+<section class="feature" id="split">
+  <div class="wrap feature__grid">
+    <div class="feature__text">
+      <h2>Split the bill by what people actually had<span class="dot">.</span></h2>
+      <p>Scan a receipt and its lines become items. Tap who had what: the ramen goes to everyone, the beers to the three who drank them. Or split it evenly in one tap.</p>
+      <ul class="points">
+        <li>Each person’s share updates as you assign</li>
+        <li>Any currency, converted to the trip’s own</li>
+        <li>Fix the amount or the split later, from the expense</li>
+      </ul>
+    </div>
+    <div class="pair">
+      <figure class="phone"><img src="{{ s }}split-items.webp" alt="Assigning the items on an Ichiran Ramen receipt to Mei, Koji, Ayo and Rin, with each person’s share below" width="720" height="1600" loading="lazy"></figure>
+      <figure class="phone pair__back"><img src="{{ s }}expense-detail.webp" alt="The saved Ichiran Ramen expense: ¥5,860, paid by you, split four ways" width="720" height="1600" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="feature feature--band feature--flip" id="settle">
+  <div class="wrap feature__grid">
+    <div class="feature__text">
+      <h2>Settle up in as few payments as possible<span class="dot">.</span></h2>
+      <p>Travel Together keeps a running tally of who’s ahead and who’s behind. When the trip ends, it works out the shortest list of payments that squares everyone, so four people don’t have to send each other twelve transfers.</p>
+      <ul class="points">
+        <li>See how much each person put in</li>
+        <li>Mark a payment received when the money arrives</li>
+        <li>Everyone sees the same numbers, as they change</li>
+      </ul>
+    </div>
+    <div class="pair">
+      <figure class="phone"><img src="{{ s }}balances.webp" alt="Settle up: three suggested payments between Koji, Mei, Ayo and Rin" width="720" height="1600" loading="lazy"></figure>
+      <figure class="phone pair__back"><img src="{{ s }}trips.webp" alt="Your trips: Osaka, now on day 4 of 15, and an upcoming trip to Lisbon" width="720" height="1600" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="feature" id="plan">
+  <div class="wrap feature__grid">
+    <div class="feature__text">
+      <h2>Bookings and notes, where everyone can find them<span class="dot">.</span></h2>
+      <p>The flight, the hotel and the dinner reservation sit in one plan with their confirmation numbers, so nobody has to dig through someone else’s inbox. Notes hold the rest: what to do on which day, and checklists anyone can tick off.</p>
+      <ul class="points">
+        <li>Today’s bookings show up on the trip’s home screen</li>
+        <li>Link a booking to a note, and its time stays current</li>
+        <li>Attach a screenshot or a PDF ticket</li>
+      </ul>
+    </div>
+    <div class="pair">
+      <figure class="phone"><img src="{{ s }}plan.webp" alt="The plan: five bookings with confirmation numbers, and notes grouped by day" width="720" height="1600" loading="lazy"></figure>
+      <figure class="phone pair__back"><img src="{{ s }}note.webp" alt="A note for the USJ day with a three-item checklist" width="720" height="1600" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="feature feature--band feature--flip" id="chat">
+  <div class="wrap feature__grid">
+    <div class="feature__text">
+      <h2>A chat that belongs to the trip<span class="dot">.</span></h2>
+      <p>Every trip has its own group chat, so the Osaka plans don’t get lost in the group you’ve had since school. Mention someone to get their attention, or message one person directly.</p>
+      <ul class="points">
+        <li>@mentions notify the person you named</li>
+        <li>Direct messages with anyone you travel with</li>
+        <li>New expenses and mentions collect in Activity</li>
+      </ul>
+    </div>
+    <div class="pair pair--single">
+      <figure class="phone"><img src="{{ s }}chat.webp" alt="The Osaka group chat, with Ayo mentioning Rin about a dinner booking" width="720" height="1600" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="feature" id="ai">
+  <div class="wrap feature__grid">
+    <div class="feature__text">
+      <h2>Claude helps, when you ask it to<span class="dot">.</span></h2>
+      <p>Three features use Claude, an AI made by Anthropic: reading a receipt photo, splitting a bill from a sentence (“Mei and I shared the gyoza”), and turning a few lines and some tickets into a plan. You see everything Claude produced before anyone else does.</p>
+      <ul class="points">
+        <li>Nothing is sent to Claude until you allow it</li>
+        <li>Anthropic doesn’t train on what you send</li>
+        <li>Turn it off at any time in Settings</li>
+      </ul>
+      <p class="more"><a href="{{ '/privacy' | relative_url }}">Read the privacy policy</a></p>
+    </div>
+    <div class="pair">
+      <figure class="phone"><img src="{{ s }}consent.webp" alt="The app asking: Use Claude for this? With Allow and Not now buttons" width="720" height="1600" loading="lazy"></figure>
+      <figure class="phone pair__back"><img src="{{ s }}planner.webp" alt="The Planner, with a brief typed in: Kyoto on Monday, Fushimi Inari at sunrise, then Arashiyama" width="720" height="1600" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="modes">
+  <div class="wrap modes__grid">
+    <figure class="phone"><img src="{{ s }}home.webp" alt="The Osaka trip home in light mode" width="720" height="1600" loading="lazy"></figure>
+    <div class="modes__text">
+      <h2>Light or dark<span class="dot">.</span></h2>
+      <p>The app follows your phone’s setting, or you can pick one yourself.</p>
+    </div>
+    <figure class="phone phone--dark"><img src="{{ s }}home-dark.webp" alt="The same trip home in dark mode" width="720" height="1600" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="beta" id="beta">
+  <div class="wrap beta__inner">
+    <img class="beta__mark" src="{{ '/assets/mark.svg' | relative_url }}" alt="" width="72" height="72">
+    <h2>Join the beta<span class="dot">.</span></h2>
+    <p>Travel Together is in closed beta on Android, through Google Play, and on iPhone, through TestFlight. Email us with the address you use on your phone’s app store and which phone you have, and we’ll send you an invite.</p>
+    <div class="actions">
+      <a class="button" href="mailto:{{ site.contact }}?subject=Travel%20Together%20beta">Ask for an invite</a>
+    </div>
+    <p class="beta__fine">Already testing? You can <a href="{{ '/delete-account' | relative_url }}">delete your account</a> at any time.</p>
+  </div>
+</section>
